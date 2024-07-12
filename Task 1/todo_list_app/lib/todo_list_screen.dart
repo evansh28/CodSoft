@@ -8,6 +8,8 @@ class TodoListScreen extends StatefulWidget {
   _TodoListScreenState createState() => _TodoListScreenState();
 }
 
+//We can also use database to save data in this by including sqlite and any backend rest api
+
 class _TodoListScreenState extends State<TodoListScreen> {
   final List<Task> _tasks = [];
 
